@@ -4,11 +4,197 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"&gt;
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css&quot; rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js&quot; integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <style>
+        header{
+            display: flex;
+            justify-content: space-between;
+            font-style: italic;
+            font-family: Arial;
+            padding: 10px;
+            background-color: rgb(73, 55, 55);
+            color: white;
+        }
+        .contact-details{
+            margin-top: 100px;
+        }
+        section{
+            display: grid;
+            grid-template-columns: 4fr 8fr;
+            font-family: Arial;
+            font-style: italic;
+           
+        }
+        .technical{
+            background-color: rgb(237, 190, 190);
+        }
+        .details{
+            
+            width: 60%;
+            padding: 20px;
+            margin-left: 65px;
+            
+        }
+        ol{
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+        li{
+            margin-top: 10px;
+        }
+        .about{
+            margin-left: 20px;
+           
+        }
+    </style>
 </head>
-<body>
-    <h1>Welcome to Our Resume</h1>
-    <span class="bi bi-heart-fill"></span>
+<body class="container-fluid">
+   <header>
+    <div class="photo">
+        <h1 style="margin-bottom: 15px; font-size: 35px; color:white; justify-items: center;" >SHIVANAND SINGH</h1>
+        <img src="Public/image/my-photo.jpg" height="250" width="200">
+    </div>
+    <div class="contact-details">
+        <div style="margin-right: 50px; font-weight: bold;">
+            <p>Address:Vill-Narottampur Post-Naipur Dist-Varanasi UP. Pin code-221011</p> 
+            <p> <span> Contact Number: +91 7048965547</span></p>
+            <p><span>Gmail-id: shivanandsingh199@gmail.com</span></p>
+            <p><span>Portfolio :<a> https://singh-ui-1994.github.io/work-presentation-creation/</a></span></p> 
+        </div>
+    </div>
+   </header>
+   <section>
+    <div class="technical">
+        <h1 style="font-size: 25px; color: blue; text-align: center; margin-bottom: -15px; margin-top: 30px;">TECHNICAL EXPERTISE</h1>
+        <div class="details">
+            <ol style=" background-color: white;">
+                <li>
+                     <p><b> JAVASCRIPT</b></p>
+                    <ul style="margin-top: 20px; margin-bottom: 10px;">
+                        <li>To be continue</li>
+                    </ul>
+                </li>
+                <li>
+                     <b>CSS</b>
+                    <ul style="margin-top: 10px;">
+                        <li>Font-style</li>
+                        <li>Display-flex</li>
+                        <li>Image</li>
+                        <li>Anchor</li>
+                        <li>Display-grid</li>
+                        <li>Border</li>
+                        <li>Padding</li>
+                        <li>Background-color</li>
+                        <li>Inter-link</li>
+                        <li>Intra-link</li>
+                        <li>Backgroun-image</li>
+                        <li>Color</li>
+                        <li>Order-list</li>
+                        <li>Un-order-list</li>
+                    </ul>
+                </li>
+                    <li style="margin-top: 20px;">
+                        <b>HTML</b> 
+                        <ul style="margin-top: 20px; margin-bottom: 20px;">
+                        <li>Font</li>
+                        <li>Display</li>
+                        <li>Image</li>
+                        <li>Links</li>
+                        <li>Table</li>
+                        <li>Form</li>
+                        <li>Iframe</li>
+                        <li>Inter-link</li>
+                        <li>Intra-link</li>
+                        <li>Order-list</li>
+                        <li>Un-order-list</li>
+                        </ul>
+                    </li>
+                    <li> 
+                        <b>Bootstrap</b>
+                        <ul style="margin-top: 20px;">
+                        <li>Alert</li>
+                        <li>Card</li>
+                        <li>Carousel</li>
+                        <li>Modal</li>
+                        <li>Badge</li>
+                        <li>Collapse</li>
+                        <li>Accordion</li>
+                        <li>Nav-tab</li>
+                        <li>Navbar</li>
+                        <li>Breadcrumb</li>
+                        <li>Table</li>
+                        </ul>
+                    </li>
+            </ol>
+            <h1 style="font-size: 15px; color: blue; padding: 5px;">FLUENT LANGUAGES</h1>
+        <p style="padding: 5px; background-color: lightcyan; width: 220px;">Hindi , English</p>
+        <h1  style="font-size: 15px; color: blue; padding: 5px;">PERSONAL INFORMATION</h1>
+        <p  style="padding: 5px; background-color: lightcyan; width: 220px;">Date of Birth : 13-Feb-1994</p>
+        </div>
+    </div>
+    <div class="about">
+         <div style="border-bottom: 2px solid brown;">
+            <h3 style="color: blue;">ABOUT ME</h3>
+         </div>
+         <p>I am Shivanand Singh an aspiring Web UI Full Stack Learning fresher who is trying to seek
+            a role to enhance and explore my technical knowledge in your company.</p>
+          
+          <div style="border-bottom: 2px solid brown; margin-top: 40px;">
+            <h3 style="color: blue;">CAREER OBJECTIVE</h3>
+          </div>
+         <p>I want to be a part of renewed organization & to contribute towards the growth of the
+            organization based on my personal capabilities by learning from the new exposure
+            within the structured frame of work.</p>
+         
+         <div style="border-bottom: 2px solid brown; margin-top: 40px;">
+            <h3 style="color: blue;">WORK EXPERIENCE (Personal Projects)</h3>
+         </div>
+        <br>
+        <br>
+        <br>
+        <h3 style="color: blue;">Technologies Used:</h3>
+        <p><b> Front End :</b> HTML, CSS, Bootstrap, JavaScript,</p>
+        <br>
+        <div style="border-bottom: 2px solid brown;">
+            <h3 style="color: blue;">EDUCATION</h3>
+        </div>
+            <h4>JUNIOR SECONDARY (10th)</h4>
+            <p>School Name : P N Govt Inter College Ram Nagar Varanasi<br>
+            <p>Passing Year: 2010</p> 
+            <p>Marks obtained: 62.33%</p>
+            <p>City, Dist, State : Varanasi, Uttar Pradesh</p>
+            
+            <h4>SENIOR SECONDARY (11th,12th)</h4>
+            <p>School Name : L B S S Inter College Naria Varanasi</p>
+            <p>Passing Year: 2012</p> 
+            <p>Marks obtained: 58.93%</p>
+            <p>City, Dist, State : Varanasi, Uttar Pradesh</p>
+
+            <h4>DIPLOMA IN ELECTRONICS ENGINEERING</h4>
+            <p>Branch Name : Government Polytechnic Jaunpur</p>
+            <p>Passing Year: 2016</p> 
+            <p>Marks obtained: 81%</p>
+            <p>City, Dist, State : Jaunpur, Uttar Pradesh</p>
+
+         <div style="border-bottom: 2px solid brown; margin-top: 40px; margin-bottom: 10px;">
+            <h3 style="color: blue;">DECLERATION</h3>
+         </div>
+        I hereby affirm that the information provided in this form is true & correct to the best
+        of my knowledge.
+         <div class="notify" style="display: flex; justify-content: space-between; margin-top: 20px;">
+            <div>
+                <p>Date: 17-Oct-2023</p>
+            </div>
+            <div>
+                 <p> Place: Uttar Pradesh<br>
+                    Your Name : Shivanand Singh</p>
+            </div>
+         </div>   
+
+    </div>
+   </section>
+
 </body>
 </html>
